@@ -1,0 +1,84 @@
+:root {
+  --bg: #010101;
+  --hitam: #0c0b0b;
+  --putih: #fff;
+}
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  width: 50%;
+  margin: auto;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+h1 {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+h2 {
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+}
+a {
+  color: black;
+  padding: 15px 0;
+}
+nav.sticky {
+  background-color: var(--hitam);
+  color: var(--bg);
+  transition: all 0.2s;
+}
+nav.sticky a {
+  color: var(--bg);
+}
+
+nav a:hover {
+  color: #868484;
+}
+nav a::after {
+  content: '';
+  transform: scaleX(0);
+  display: block;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--hitam);
+  transition: 0.2s linear;
+}
+nav a:hover::after {
+  transform: scaleX(0.5);
+}
+
+.container {
+  width: 70%;
+  margin-top: 10px;
+  margin: auto;
+  border: 1px solid black;
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+button {
+  margin-top: 15px;
+  margin-left: 5%;
+  padding: 5px;
+  background-color: transparent;
+  border: 1px solid var(--hitam);
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: var(--hitam);
+  transition: 0.2s linear;
+}
+button a:hover {
+  color: var(--putih);
+  transition: 0.2s linear;
+}
+p {
+  text-align: center;
+}
