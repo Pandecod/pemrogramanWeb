@@ -21,6 +21,7 @@
             <a href="perulangan/perulangan1.php">Perulangan</a>
             <a href="array/array1.php">Array</a>
             <a href="function/function1.php">Function</a>
+            <a href="form/from_input.php">Form</a>
         </nav>
    </div>
 </body>
