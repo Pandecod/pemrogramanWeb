@@ -1,18 +1,7 @@
 <?php
 require_once './header.php';
 ?>
-<style>
-    form{
-        padding: 5px;
-       
-    }
-    input{
-        padding-top: 5px;
-    }
-    h3{
-        padding-top: 10px;
-    }
-</style>
+
 <div class="container">
     <h3>Elemen Control Form</h3>
     <form action="action.php" method="GET/POST">{Jenis input}</form>
